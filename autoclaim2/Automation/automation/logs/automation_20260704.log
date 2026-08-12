@@ -1,0 +1,776 @@
+2026-07-04 06:30:17 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 06:30:17 [INFO] All sub-systems initialised.
+2026-07-04 06:30:18 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 06:30:18 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 601, 'width': 1491, 'height': 298}
+2026-07-04 06:30:24 [INFO] Clean exit requested (ESC).
+2026-07-04 06:30:28 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 06:30:28 [INFO] WorkflowEngine shut down cleanly.
+2026-07-04 06:30:35 [INFO] Running CLI Calibration...
+2026-07-04 06:30:35 [INFO] Starting calibration...
+2026-07-04 06:31:12 [INFO] Calibration complete — all regions configured.
+2026-07-04 06:31:12 [INFO] Calibration finished.
+2026-07-04 06:31:17 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 06:31:17 [INFO] All sub-systems initialised.
+2026-07-04 06:31:17 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 06:31:17 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 663, 'width': 1486, 'height': 286}
+2026-07-04 06:31:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 06:31:22 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 06:31:26 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:31:27 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:27 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 06:31:27 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:36 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 06:31:37 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 06:31:39 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 06:31:42 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 06:31:44 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:51 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:31:54 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:31:56 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:31:59 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:01 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:03 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:08 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:11 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:13 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:15 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:17 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:20 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:22 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:25 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:27 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:30 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:32:32 [INFO] [row_detected] total_rows=4 | claim_rows=[1]
+2026-07-04 06:32:32 [INFO] [claim_found] row_id=1 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 703)
+2026-07-04 06:32:32 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 06:32:32 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 06:32:33 [INFO] [claim_cell_clicked] row_id=1 | x=1169 | y=703
+2026-07-04 06:32:33 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 06:32:34 [INFO] [claim_verified] y_key=704 | cell_text=phan | elapsed_s=1.609
+2026-07-04 06:32:34 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 06:32:35 [INFO] [select_clicked] y_key=704 | x=1315 | y=703
+2026-07-04 06:32:36 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 06:32:36 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 06:32:37 [INFO] [connect_clicked] y_key=704 | x=769 | y=102
+2026-07-04 06:32:37 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 06:32:37 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 06:32:38 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 06:32:38 [INFO] Automation ENABLED (F8)
+2026-07-04 06:32:38 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 06:32:38 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:32:39 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 06:32:41 [INFO] Automation DISABLED (F8)
+2026-07-04 06:32:41 [INFO] [state_change] from_state=SCANNING | to_state=STOPPED
+2026-07-04 06:43:47 [INFO] Clean exit requested (ESC).
+2026-07-04 06:43:47 [INFO] WorkflowEngine shut down cleanly.
+2026-07-04 06:54:55 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 06:54:55 [INFO] All sub-systems initialised.
+2026-07-04 06:54:55 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 06:54:55 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 663, 'width': 1486, 'height': 286}
+2026-07-04 06:54:58 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 06:54:58 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:54:59 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:01 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:04 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:09 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:11 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:13 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:15 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 06:55:18 [INFO] [row_detected] total_rows=4 | claim_rows=[0]
+2026-07-04 06:55:18 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 06:55:18 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 06:55:18 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 06:55:18 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 06:55:18 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 06:55:20 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.406
+2026-07-04 06:55:20 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 06:55:20 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 06:55:21 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 06:55:21 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 06:55:22 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 06:55:22 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 06:55:22 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 06:55:23 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 06:56:26 [INFO] Clean exit requested (ESC).
+2026-07-04 06:56:26 [INFO] WorkflowEngine shut down cleanly.
+2026-07-04 06:57:06 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 06:57:07 [INFO] All sub-systems initialised.
+2026-07-04 06:57:07 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 06:57:07 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 663, 'width': 1486, 'height': 286}
+2026-07-04 06:57:10 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 06:57:10 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 06:57:10 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 06:57:10 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 06:57:10 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 06:57:11 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 06:57:11 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 06:57:13 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.606
+2026-07-04 06:57:13 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 06:57:13 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 06:57:14 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 06:57:14 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 06:57:15 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 06:57:15 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 06:57:15 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 06:57:16 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 07:04:58 [INFO] Automation ENABLED (F8)
+2026-07-04 07:04:58 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 07:04:59 [INFO] [row_detected] total_rows=6 | claim_rows=[0, 1]
+2026-07-04 07:04:59 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 07:04:59 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 07:04:59 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 07:04:59 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 07:04:59 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 07:05:01 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.406
+2026-07-04 07:05:01 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 07:05:01 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 07:05:02 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 07:05:02 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 07:05:03 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 07:05:03 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 07:05:03 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 07:05:04 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 07:08:53 [INFO] Automation ENABLED (F8)
+2026-07-04 07:08:53 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 07:08:53 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 07:08:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 07:08:56 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 07:08:59 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 07:09:01 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 07:09:01 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 07:09:01 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 07:09:01 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 07:09:02 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 07:09:02 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 07:09:04 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.505
+2026-07-04 07:09:04 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 07:09:04 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 07:09:05 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 07:09:05 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 07:09:06 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 07:09:06 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 07:09:06 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 07:09:07 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 07:09:56 [INFO] Clean exit requested (ESC).
+2026-07-04 07:09:56 [INFO] WorkflowEngine shut down cleanly.
+2026-07-04 12:55:26 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 12:55:27 [INFO] All sub-systems initialised.
+2026-07-04 12:55:27 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 12:55:27 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 663, 'width': 1486, 'height': 286}
+2026-07-04 12:55:39 [INFO] [row_detected] total_rows=6 | claim_rows=[2]
+2026-07-04 12:55:39 [INFO] [claim_found] row_id=2 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 733)
+2026-07-04 12:55:39 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 12:55:39 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 12:55:39 [INFO] [claim_cell_clicked] row_id=2 | x=1169 | y=733
+2026-07-04 12:55:39 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 12:55:39 [INFO] Automation DISABLED (F8)
+2026-07-04 12:55:39 [WARNING] Cell shows 'pnguyen' (not pending and not 'PHAN') — claimed by someone else.
+2026-07-04 12:55:39 [INFO] [claim_stolen] y_key=736 | cell_text=pnguyen
+2026-07-04 12:55:39 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=SCANNING
+2026-07-04 12:55:39 [INFO] [state_change] from_state=SCANNING | to_state=STOPPED
+2026-07-04 12:57:13 [INFO] Automation ENABLED (F8)
+2026-07-04 12:57:13 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 12:57:14 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:15 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:17 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:20 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:22 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:25 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:27 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:29 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:32 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:34 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 12:57:37 [INFO] [row_detected] total_rows=5 | claim_rows=[0]
+2026-07-04 12:57:37 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 12:57:37 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 12:57:37 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 12:57:37 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 12:57:37 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 12:57:39 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.406
+2026-07-04 12:57:39 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 12:57:40 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 12:57:41 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 12:57:41 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 12:57:41 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 12:57:41 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 12:57:41 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 12:57:42 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 12:59:59 [INFO] Automation ENABLED (F8)
+2026-07-04 12:59:59 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 12:59:59 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:00 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:01 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=8 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 13:00:02 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:04 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:04 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:04 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:04 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:05 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:00:05 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:00:05 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:05 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:06 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:06 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:06 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:07 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:08 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:00:10 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:10 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:12 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:00:15 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:17 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:19 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:22 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:24 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:26 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:00:29 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:31 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:34 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:36 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:39 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:41 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:44 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:46 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:48 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:56 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:00:58 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:01:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:02:13 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:02:13 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 13:02:13 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:02:13 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:02:14 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 13:02:14 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:02:15 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.406
+2026-07-04 13:02:15 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:02:16 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 13:02:17 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:02:17 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 13:02:17 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 13:02:17 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 13:02:17 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 13:02:18 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 13:05:05 [INFO] Automation ENABLED (F8)
+2026-07-04 13:05:05 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 13:05:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:07 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:09 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:12 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:14 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:16 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:19 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:21 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:24 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:26 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:05:29 [INFO] [row_detected] total_rows=4 | claim_rows=[1]
+2026-07-04 13:05:29 [INFO] [claim_found] row_id=1 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 703)
+2026-07-04 13:05:29 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:05:29 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:05:29 [INFO] [claim_cell_clicked] row_id=1 | x=1169 | y=703
+2026-07-04 13:05:29 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:05:31 [INFO] [claim_verified] y_key=704 | cell_text=phan | elapsed_s=1.405
+2026-07-04 13:05:31 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:05:31 [INFO] [select_clicked] y_key=704 | x=1315 | y=703
+2026-07-04 13:05:32 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:05:32 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 13:05:33 [INFO] [connect_clicked] y_key=704 | x=769 | y=102
+2026-07-04 13:05:33 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 13:05:33 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 13:05:34 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 13:10:32 [INFO] Automation ENABLED (F8)
+2026-07-04 13:10:32 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 13:10:32 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:34 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:37 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:39 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:42 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:44 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:47 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:49 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:51 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:10:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:10:56 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:10:59 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:11:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:11:04 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:11:06 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:11:09 [INFO] [row_detected] total_rows=3 | claim_rows=[0, 1]
+2026-07-04 13:11:09 [INFO] [claim_found] row_id=0 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 673)
+2026-07-04 13:11:09 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:11:09 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:11:10 [INFO] [claim_cell_clicked] row_id=0 | x=1169 | y=673
+2026-07-04 13:11:10 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:11:11 [INFO] [claim_verified] y_key=672 | cell_text=phan | elapsed_s=1.507
+2026-07-04 13:11:11 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:11:12 [INFO] [select_clicked] y_key=672 | x=1315 | y=675
+2026-07-04 13:11:13 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:11:13 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 13:11:13 [INFO] [connect_clicked] y_key=672 | x=769 | y=102
+2026-07-04 13:11:13 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 13:11:13 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 13:11:14 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 13:13:19 [INFO] Clean exit requested (ESC).
+2026-07-04 13:13:19 [INFO] WorkflowEngine shut down cleanly.
+2026-07-04 13:15:34 [INFO] System Tray initialized. Application is running in the background.
+2026-07-04 13:15:34 [INFO] All sub-systems initialised.
+2026-07-04 13:15:34 [INFO] [state_change] from_state=IDLE | to_state=SCANNING
+2026-07-04 13:15:34 [INFO] WorkflowEngine started — user='phan'  table={'left': 52, 'top': 663, 'width': 1486, 'height': 286}
+2026-07-04 13:15:38 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:15:38 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:40 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:43 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:45 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:47 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:50 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:53 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:55 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:15:57 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:00 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:02 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:05 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:07 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:10 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:12 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:14 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:17 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:19 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:22 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:24 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:27 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:29 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:32 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:34 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:36 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:39 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:41 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:44 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:46 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:48 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:51 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:53 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:55 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:16:57 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:00 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:02 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:05 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:07 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:10 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:12 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:15 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:17 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:20 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:22 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:25 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:27 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:30 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:17:32 [INFO] [row_detected] total_rows=3 | claim_rows=[1]
+2026-07-04 13:17:32 [INFO] [claim_found] row_id=1 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 703)
+2026-07-04 13:17:32 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:17:32 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:17:33 [INFO] [claim_cell_clicked] row_id=1 | x=1169 | y=703
+2026-07-04 13:17:33 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:17:34 [INFO] [claim_verified] y_key=704 | cell_text=phan | elapsed_s=1.407
+2026-07-04 13:17:34 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:17:35 [INFO] [select_clicked] y_key=704 | x=1315 | y=703
+2026-07-04 13:17:36 [INFO] Automation DISABLED (F8)
+2026-07-04 13:17:36 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:17:36 [INFO] [state_change] from_state=CLICK_SELECT | to_state=STOPPED
+2026-07-04 13:19:36 [INFO] Automation ENABLED (F8)
+2026-07-04 13:19:36 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 13:19:36 [INFO] [row_detected] total_rows=5 | claim_rows=[0]
+2026-07-04 13:19:37 [INFO] [row_detected] total_rows=5 | claim_rows=[0]
+2026-07-04 13:19:38 [INFO] [row_detected] total_rows=5 | claim_rows=[0]
+2026-07-04 13:19:40 [INFO] [row_detected] total_rows=6 | claim_rows=[0, 1]
+2026-07-04 13:19:40 [INFO] [claim_found] row_id=1 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 719)
+2026-07-04 13:19:40 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:19:40 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:19:40 [INFO] [claim_cell_clicked] row_id=1 | x=1169 | y=719
+2026-07-04 13:19:40 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:19:42 [INFO] [claim_verified] y_key=720 | cell_text=phan | elapsed_s=1.305
+2026-07-04 13:19:42 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:19:42 [INFO] [select_clicked] y_key=720 | x=1315 | y=719
+2026-07-04 13:19:43 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:19:43 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 13:19:44 [INFO] Automation DISABLED (F8)
+2026-07-04 13:19:44 [INFO] [connect_clicked] y_key=720 | x=769 | y=102
+2026-07-04 13:19:44 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 13:19:44 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 13:22:43 [INFO] Automation ENABLED (F8)
+2026-07-04 13:22:43 [INFO] [state_change] from_state=STOPPED | to_state=SCANNING
+2026-07-04 13:22:43 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:44 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:44 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:44 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:45 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:47 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:48 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:49 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:49 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:49 [INFO] [row_detected] total_rows=3 | claim_rows=[0]
+2026-07-04 13:22:52 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:22:54 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:22:57 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:22:59 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:02 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:04 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:06 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:09 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:11 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:11 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:14 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:15 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:16 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:18 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:19 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:21 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:23 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:24 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:26 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:28 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:31 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:33 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:36 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:38 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:41 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:43 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:46 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:48 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:50 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:53 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:55 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:23:57 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:24:00 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:02 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:04 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:06 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:09 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:11 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:14 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:16 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:19 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:24 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:26 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:28 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:31 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:33 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:35 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:38 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:40 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:42 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:45 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:47 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:24:47 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:47 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:47 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:24:57 [INFO] [loop_tick] state=SCANNING | rows=9 | claims=0
+2026-07-04 13:24:58 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 13:25:12 [INFO] [loop_tick] state=SCANNING | rows=8 | claims=0
+2026-07-04 13:25:37 [INFO] [loop_tick] state=SCANNING | rows=8 | claims=0
+2026-07-04 13:25:39 [INFO] [loop_tick] state=SCANNING | rows=8 | claims=0
+2026-07-04 13:25:39 [INFO] [loop_tick] state=SCANNING | rows=8 | claims=0
+2026-07-04 13:25:40 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:25:41 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:25:41 [INFO] [loop_tick] state=SCANNING | rows=6 | claims=0
+2026-07-04 13:25:45 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:46 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:47 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:47 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:50 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:51 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:25:51 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:51 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:51 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:51 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:54 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:54 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:54 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:54 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:58 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:58 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:58 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:58 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:25:59 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:01 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:01 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:01 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:02 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:05 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:10 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:11 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:11 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:21 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:22 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:23 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:23 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:23 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:27 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:27 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:27 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:27 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:27 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:28 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:28 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:28 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:29 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:29 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:35 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:35 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:38 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:38 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:38 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:39 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:39 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:39 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:39 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:40 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:40 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:41 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:42 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:42 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=3 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:43 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:44 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:44 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:44 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:45 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:46 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:46 [INFO] [loop_tick] state=SCANNING | rows=5 | claims=0
+2026-07-04 13:26:47 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:48 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:49 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=4 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=7 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:50 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:26:55 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:56 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:56 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:57 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:26:58 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:27:00 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:02 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:27:07 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:07 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:08 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:09 [INFO] [loop_tick] state=SCANNING | rows=2 | claims=0
+2026-07-04 13:27:11 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:12 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:12 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:12 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:27:56 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:28:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:28:52 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:28:57 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:29:06 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:29:11 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:29:17 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:29:17 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:19 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:21 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:24 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:26 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:29 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:31 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:34 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:36 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:39 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:41 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:43 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:46 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:48 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:51 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:51 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:53 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:56 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:56 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:29:58 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:01 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:03 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:05 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:07 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:10 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:12 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:12 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:14 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:17 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:19 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:19 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:20 [INFO] [row_detected] total_rows=2 | claim_rows=[0]
+2026-07-04 13:30:22 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:30:24 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:30:25 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:30:26 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:30:29 [INFO] [row_detected] total_rows=1 | claim_rows=[0]
+2026-07-04 13:30:31 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:34 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:36 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:39 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:41 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:44 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:46 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:48 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:49 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:51 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:53 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:54 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:56 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:30:58 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:01 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:03 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:06 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:08 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:10 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:13 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:15 [INFO] [loop_tick] state=SCANNING | rows=1 | claims=0
+2026-07-04 13:31:18 [INFO] [row_detected] total_rows=2 | claim_rows=[1]
+2026-07-04 13:31:18 [INFO] [claim_found] row_id=1 | text=CLAIM | confidence=0.999 | claim_cell=(1169, 719)
+2026-07-04 13:31:18 [INFO] [state_change] from_state=SCANNING | to_state=CLAIM_FOUND
+2026-07-04 13:31:18 [INFO] [state_change] from_state=CLAIM_FOUND | to_state=CLICK_CLAIM
+2026-07-04 13:31:19 [INFO] [claim_cell_clicked] row_id=1 | x=1169 | y=719
+2026-07-04 13:31:19 [INFO] [state_change] from_state=CLICK_CLAIM | to_state=WAIT_USERNAME
+2026-07-04 13:31:20 [INFO] [claim_verified] y_key=720 | cell_text=phan | elapsed_s=1.608
+2026-07-04 13:31:20 [INFO] [state_change] from_state=WAIT_USERNAME | to_state=CLAIM_SUCCESS
+2026-07-04 13:31:21 [INFO] [select_clicked] y_key=720 | x=1315 | y=719
+2026-07-04 13:31:22 [INFO] [state_change] from_state=CLAIM_SUCCESS | to_state=CLICK_SELECT
+2026-07-04 13:31:22 [INFO] [state_change] from_state=CLICK_SELECT | to_state=CLICK_CONNECT
+2026-07-04 13:31:23 [INFO] [connect_clicked] y_key=720 | x=769 | y=102
+2026-07-04 13:31:23 [INFO] [state_change] from_state=CLICK_CONNECT | to_state=CONNECTED
+2026-07-04 13:31:23 [INFO] ✓ Connected! Waiting 1000ms then entering STOPPED state.
+2026-07-04 13:31:24 [INFO] [state_change] from_state=CONNECTED | to_state=STOPPED
+2026-07-04 13:33:14 [INFO] Clean exit requested (ESC).
+2026-07-04 13:33:14 [INFO] WorkflowEngine shut down cleanly.

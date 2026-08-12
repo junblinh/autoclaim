@@ -1,0 +1,154 @@
+================================================================================
+  HƯỚNG DẪN CHI TIẾT CÀI ĐẶT & SỬ DỤNG TOOL AUTOMATION TELEOPS (DÀNH CHO NGƯỜI MỚI)
+================================================================================
+
+Tài liệu này được viết chi tiết từng bước bằng tiếng Việt, giúp một người mới hoàn 
+toàn (chưa từng biết lập trình) cũng có thể tự cài đặt và vận hành tool một cách 
+dễ dàng trên hệ điều hành Windows.
+
+---
+
+BƯỚC 1: TẢI VÀ CÀI ĐẶT PYTHON (Bộ chạy chương trình)
+===================================================
+Python là môi trường cần thiết để tool có thể chạy được.
+1. Truy cập trang web chính thức: https://www.python.org/downloads/
+2. Click nút màu vàng "Download Python 3.11.x".
+3. Sau khi tải về, mở file cài đặt lên.
+4. [CỰC KỲ QUAN TRỌNG]: Ở ngay màn hình đầu tiên, tích chọn vào ô:
+   "Add python.exe to PATH" ở dưới cùng trước khi bấm "Install Now".
+   (Nếu không chọn ô này, máy tính sẽ báo lỗi không nhận diện được lệnh "python").
+5. Chờ chương trình cài đặt xong rồi bấm "Close".
+
+---
+
+BƯỚC 2: MỞ THƯ MỤC CHỨA TOOL BẰNG TERMINAL (CMD/POWERSHELL)
+==========================================================
+Để ra lệnh cho tool chạy, bạn cần mở cửa sổ dòng lệnh (CMD) tại đúng thư mục chứa tool.
+Mẹo mở nhanh nhất cho người mới:
+1. Mở File Explorer (Thư mục Windows bình thường) và tìm đến thư mục `Automation` 
+   chứa các file mã nguồn của tool.
+2. Click chuột vào thanh địa chỉ của File Explorer (thanh nằm ở trên cùng, hiển thị 
+   đường dẫn thư mục ví dụ: `C:\Users\...\Automation`).
+3. Xoá hết chữ trên thanh đó đi, gõ chữ `cmd` rồi bấm nút Enter trên bàn phím.
+4. Một cửa sổ màn hình đen (Command Prompt) sẽ hiện lên và tự động truy cập sẵn 
+   vào đúng thư mục `Automation` của bạn.
+
+*(Cách thủ công: Mở Command Prompt ngoài desktop, gõ lệnh `cd <đường dẫn thư mục>` 
+ rồi bấm Enter, ví dụ: `cd C:\Users\SYMBOTIC\Documents\Automation`).*
+
+---
+
+BƯỚC 3: CÀI ĐẶT CÁC THƯ VIỆN BỔ TRỢ (CHỈ CẦN LÀM 1 LẦN ĐẦU)
+==========================================================
+Tại cửa sổ CMD màu đen vừa mở ở Bước 2, gõ chính xác lệnh sau đây rồi bấm Enter:
+
+pip install -r requirements.txt
+
+* Lưu ý:
+  - Máy tính cần có kết nối mạng để tải các thư viện.
+  - Quá trình này có thể mất từ 1 - 2 phút tùy tốc độ mạng.
+  - Sau khi chạy xong, nếu màn hình hiện dòng chữ "Successfully installed..." 
+    là bạn đã cài đặt thành công.
+
+---
+
+BƯỚC 4: THIẾT LẬP THÔNG TIN CÁ NHÂN (config.json)
+================================================
+1. Vào thư mục `Automation`, tìm file tên là `config.json`.
+2. Click chuột phải vào file, chọn "Open with" (Mở bằng) -> chọn "Notepad".
+3. Tìm đến dòng:
+    "username": "phan",
+    Thay chữ "phan" thành chính xác tên tài khoản Teleops của bạn (giữ nguyên hai 
+    dấu ngoặc kép).
+4. Tìm đến dòng:
+    "site_blocklist": [],
+    Nếu bạn muốn bỏ qua không claim bot của site nào đó (ví dụ site "RYM" và "BCK"), 
+    hãy điền như sau:
+    "site_blocklist": ["RYM", "BCK"],
+    Nếu không muốn tránh site nào, hãy để nguyên mảng trống: `"site_blocklist": [],`
+5. Tìm đến dòng:
+    "allowed_teleop_types": ["SUSPECT", "CHRF"],
+    Đây là danh sách các kiểu Teleop được phép claim. Bạn có thể thêm hoặc bớt các kiểu 
+    (ví dụ: ["SUSPECT"] chỉ claim suspect, ["SUSPECT", "CHRF"] claim cả hai).
+6. Tìm đến dòng:
+    "max_alarm_time": "10:00",
+    Thời gian cảnh báo tối đa (MM:SS) được phép claim. Nếu bot bị cảnh báo lâu hơn thời 
+    gian này (ví dụ: "12:00" hoặc "56:28"), tool sẽ tự động bỏ qua dòng đó.
+7. Bấm Ctrl + S để lưu lại file cấu hình và tắt Notepad đi.
+
+---
+
+BƯỚC 5: HIỆU CHUẨN TOẠ ĐỘ MÀN HÌNH (MỖI KHI THAY ĐỔI VỊ TRÍ TELEOPS GUI)
+======================================================================
+Tool hoạt động bằng cách nhận diện hình ảnh và tự click chuột, do đó nó cần được 
+chỉ vị trí các nút trên màn hình của bạn.
+
+1. Hãy mở ứng dụng Teleops GUI lên trước và để hiển thị trên màn hình.
+2. Tại cửa sổ CMD màu đen, gõ lệnh sau rồi bấm Enter:
+
+python main.py calibrate
+
+3. Một lớp màn mờ bao phủ màn hình sẽ xuất hiện. Hãy đọc dòng hướng dẫn màu đỏ ở 
+   góc trên bên trái và dùng chuột thực hiện đủ 7 bước sau:
+   - Bước 1/7: Kéo chuột tạo thành một hộp vuông bao quanh toàn bộ vùng danh sách bot 
+     (vùng bảng chứa các hàng bot).
+   - Bước 2/7: Kéo chuột chọn cột TELEOP TYPE (cột thứ 2, chứa chữ SUSPECT/CHRF/CAS_DRIVING).
+   - Bước 3/7: Kéo chuột chọn cột SITE (cột thứ 4, chứa mã Site ví dụ: MRP, BRK).
+   - Bước 4/7: Kéo chuột chọn cột ALARMED FOR (cột thứ 7, chứa thời gian cảnh báo ví dụ: 56:28, 02:14).
+   - Bước 5/7: Kéo chuột chọn cột CLAIM (cột thứ 8, chứa chữ CLAIM hoặc tên người).
+   - Bước 6/7: Kéo chuột chọn cột SELECT (cột thứ 9, chứa các nút Select).
+   - Bước 7/7: Click chuột thẳng vào chính giữa nút CONNECT cố định (nút to ở trên cùng).
+4. Sau khi click ở bước 7, lớp màn mờ sẽ tự động biến mất và toạ độ được lưu lại.
+
+---
+
+BƯỚC 6: CHẠY TOOL CHÍNH THỨC
+============================
+1. Tại cửa sổ CMD màu đen, gõ lệnh sau để khởi động tool:
+
+python main.py
+
+2. CÁC HIỆN TƯỢNG XUẤT HIỆN KHI CHẠY THÀNH CÔNG:
+   - Ở khay hệ thống (System Tray - góc dưới bên phải màn hình, cạnh đồng hồ) sẽ 
+     xuất hiện một icon hình tròn màu xanh lam có mũi tên.
+   - Một bảng trạng thái nhỏ màu đen (Status Window) hiện lên hiển thị các thông tin 
+     nền. Bạn có thể dùng chuột kéo bảng này để ở góc màn hình để theo dõi.
+   - [LẦN ĐẦU CHẠY]: Tool sẽ mất khoảng 1 phút để tải mô hình trí tuệ nhân tạo nhận 
+     diện chữ (EasyOCR) về máy (khoảng 100MB). Các lần chạy sau sẽ khởi động ngay lập tức.
+   - Ban đầu, trạng thái hiển thị trên Status Window sẽ là "STOPPED" (Đã dừng).
+
+--------------------------------------------------------------------------------
+HƯỚNG DẪN ĐIỀU KHIỂN & VẬN HÀNH TOOL (KHI ĐANG CHẠY)
+--------------------------------------------------------------------------------
+Bạn dùng bàn phím bấm các nút sau để điều khiển tool hoạt động:
+
+- BẤM PHÍM F8: Kích hoạt tool bắt đầu quét (Trạng thái chuyển sang SCANNING).
+  * Tool sẽ liên tục chụp màn hình và quét cột CLAIM để tìm ô có chữ "CLAIM".
+  * Tool sẽ bỏ qua các dòng không có chữ "SUSPECT" (dòng màu xanh lá cây CAS_DRIVING) 
+    và các site nằm trong danh sách chặn.
+  * Khi phát hiện ô CLAIM hợp lệ, tool tự động click vào đó -> Đợi xác nhận tên bạn 
+    xuất hiện -> Tự động click nút Select tương ứng -> Tự động click nút Connect ở trên.
+  * Sau khi kết nối thành công 01 Bot duy nhất, tool sẽ tự tắt quét và chuyển về 
+    trạng thái "STOPPED" (Đã dừng) để tránh tự động claim thêm.
+- BẤM PHÍM F8 LẦN NỮA: Nếu muốn dừng quét giữa chừng hoặc kích hoạt lại sau một lần 
+  kết nối thành công.
+- BẤM PHÍM F10: Tạm dừng / Tiếp tục quét mà không thay đổi trạng thái cài đặt.
+- BẤM PHÍM ESC: Thoát hoàn toàn chương trình.
+
+--------------------------------------------------------------------------------
+XỬ LÝ CÁC LỖI THƯỜNG GẶP
+--------------------------------------------------------------------------------
+1. Lỗi: "python is not recognized..." khi chạy lệnh.
+   -> Nguyên nhân: Bạn chưa tích chọn "Add python.exe to PATH" khi cài đặt ở Bước 1.
+   -> Cách sửa: Gỡ cài đặt Python ra và cài đặt lại, nhớ tích chọn ô đó.
+
+2. Lỗi: "Failed to register hotkey ID..."
+   -> Nguyên nhân: Bạn đang mở nhiều cửa sổ terminal/CMD cùng chạy tool này, hoặc 
+      tiến trình cũ chưa được tắt hẳn nên tranh giành phím tắt.
+   -> Cách sửa: Tắt hết các cửa sổ CMD cũ đi, hoặc bấm phím ESC ở các cửa sổ đó rồi 
+      chạy lại từ đầu.
+
+3. Lỗi: Click lệch nút hoặc click trượt.
+   -> Nguyên nhân: Cửa sổ Teleops GUI bị di chuyển hoặc thay đổi kích thước so với lúc hiệu chuẩn.
+   -> Cách sửa: Bật lại lệnh `python main.py calibrate` để vẽ lại toạ độ.
+================================================================================

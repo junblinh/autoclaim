@@ -1,0 +1,718 @@
+{"ts": "2026-07-03T23:30:18.353260Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-03T23:30:28.224245Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-03T23:31:17.720371Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-03T23:31:22.645623Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-03T23:31:22.737128Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-03T23:31:26.537968Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:31:27.042758Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:27.443466Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-03T23:31:27.543989Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:36.654272Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-03T23:31:37.681392Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-03T23:31:39.882568Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-03T23:31:42.197385Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-03T23:31:44.627677Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:46.848319Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:49.263699Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:51.780160Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:31:54.317448Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:31:56.749060Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:31:59.164673Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:01.563647Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:03.780143Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:06.097100Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:08.296581Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:11.112998Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:13.330260Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:15.631499Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:17.946154Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:20.346014Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:22.762987Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:25.281923Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:27.680451Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:30.096665Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:32:32.606334Z", "event": "row_detected", "total_rows": 4, "claim_rows": [1]}
+{"ts": "2026-07-03T23:32:32.666337Z", "event": "claim_found", "row_id": 1, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 703]}
+{"ts": "2026-07-03T23:32:32.667338Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-03T23:32:32.668338Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-03T23:32:33.306847Z", "event": "claim_cell_clicked", "row_id": 1, "x": 1169, "y": 703}
+{"ts": "2026-07-03T23:32:33.307367Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-03T23:32:34.945119Z", "event": "claim_verified", "y_key": 704, "cell_text": "phan", "elapsed_s": 1.609}
+{"ts": "2026-07-03T23:32:34.946120Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-03T23:32:35.556714Z", "event": "select_clicked", "y_key": 704, "x": 1315, "y": 703}
+{"ts": "2026-07-03T23:32:36.557363Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-03T23:32:36.557889Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-03T23:32:37.190339Z", "event": "connect_clicked", "y_key": 704, "x": 769, "y": 102}
+{"ts": "2026-07-03T23:32:37.191388Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-03T23:32:38.194841Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-03T23:32:38.620253Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-03T23:32:38.914114Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:32:39.828842Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-03T23:32:41.224682Z", "event": "state_change", "from_state": "SCANNING", "to_state": "STOPPED"}
+{"ts": "2026-07-03T23:54:55.204076Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-03T23:54:58.807144Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-03T23:54:58.949773Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:54:59.467502Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:01.887132Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:04.383842Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:06.802015Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:09.102088Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:11.317671Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:13.619143Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:15.836669Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-03T23:55:18.271129Z", "event": "row_detected", "total_rows": 4, "claim_rows": [0]}
+{"ts": "2026-07-03T23:55:18.313659Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-03T23:55:18.314659Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-03T23:55:18.314659Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-03T23:55:18.945221Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-03T23:55:18.945221Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-03T23:55:20.394131Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.406}
+{"ts": "2026-07-03T23:55:20.395634Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-03T23:55:20.994489Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-03T23:55:21.995695Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-03T23:55:21.995695Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-03T23:55:22.627750Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-03T23:55:22.627750Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-03T23:55:23.629604Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-03T23:57:07.012476Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-03T23:57:10.622839Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-03T23:57:10.731971Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-03T23:57:10.772517Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-03T23:57:10.772517Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-03T23:57:10.773517Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-03T23:57:11.407570Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-03T23:57:11.407570Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-03T23:57:13.061144Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.606}
+{"ts": "2026-07-03T23:57:13.061144Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-03T23:57:13.658239Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-03T23:57:14.659226Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-03T23:57:14.660236Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-03T23:57:15.290635Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-03T23:57:15.290635Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-03T23:57:16.291748Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T00:04:58.762795Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T00:04:59.050231Z", "event": "row_detected", "total_rows": 6, "claim_rows": [0, 1]}
+{"ts": "2026-07-04T00:04:59.093814Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-04T00:04:59.094316Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T00:04:59.095319Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T00:04:59.725931Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-04T00:04:59.725931Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T00:05:01.168676Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.406}
+{"ts": "2026-07-04T00:05:01.169674Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T00:05:01.776094Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-04T00:05:02.776913Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T00:05:02.777420Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T00:05:03.408964Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-04T00:05:03.409473Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T00:05:04.410874Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T00:08:53.330638Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T00:08:53.606034Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T00:08:54.292897Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T00:08:56.639852Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T00:08:59.044107Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T00:09:01.837006Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T00:09:01.867055Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-04T00:09:01.867055Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T00:09:01.867055Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T00:09:02.501675Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-04T00:09:02.501675Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T00:09:04.040654Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.505}
+{"ts": "2026-07-04T00:09:04.041685Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T00:09:04.650514Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-04T00:09:05.651650Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T00:09:05.651650Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T00:09:06.283828Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-04T00:09:06.284332Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T00:09:07.285405Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T05:55:27.119356Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-04T05:55:39.008604Z", "event": "row_detected", "total_rows": 6, "claim_rows": [2]}
+{"ts": "2026-07-04T05:55:39.064102Z", "event": "claim_found", "row_id": 2, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 733]}
+{"ts": "2026-07-04T05:55:39.065102Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T05:55:39.066102Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T05:55:39.706321Z", "event": "claim_cell_clicked", "row_id": 2, "x": 1169, "y": 733}
+{"ts": "2026-07-04T05:55:39.706321Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T05:55:39.774093Z", "event": "claim_stolen", "y_key": 736, "cell_text": "pnguyen"}
+{"ts": "2026-07-04T05:55:39.774093Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "SCANNING"}
+{"ts": "2026-07-04T05:55:39.807604Z", "event": "state_change", "from_state": "SCANNING", "to_state": "STOPPED"}
+{"ts": "2026-07-04T05:57:13.730037Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T05:57:14.040481Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:15.163875Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:17.678582Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:20.076474Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:22.512570Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:25.136557Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:27.458879Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:29.876041Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:32.295964Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:34.791209Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T05:57:37.275489Z", "event": "row_detected", "total_rows": 5, "claim_rows": [0]}
+{"ts": "2026-07-04T05:57:37.310491Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-04T05:57:37.310491Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T05:57:37.311491Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T05:57:37.954363Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-04T05:57:37.954363Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T05:57:39.395393Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.406}
+{"ts": "2026-07-04T05:57:39.395393Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T05:57:40.002804Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-04T05:57:41.003973Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T05:57:41.004475Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T05:57:41.636050Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-04T05:57:41.636050Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T05:57:42.637382Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T05:59:59.225487Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T05:59:59.434133Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:00.120350Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:00.235467Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:00.260687Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:00.359705Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:00.460972Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:00.558537Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:00.658660Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:00.759747Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:00.861389Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:00.965157Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:01.063216Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:01.252792Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:01.277663Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:01.466548Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:01.493549Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:01.595582Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:01.691368Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:01.793066Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:01.893248Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:01.993874Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-04T06:00:02.091960Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:02.192529Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:02.292859Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:02.477506Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:02.493504Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:02.676221Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:00:02.712726Z", "event": "loop_tick", "state": "SCANNING", "rows": 8, "claims": 0}
+{"ts": "2026-07-04T06:00:02.811372Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-04T06:00:02.911740Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:03.010660Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.110206Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.207960Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.304621Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.410800Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.511836Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.697425Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.726426Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.923132Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:03.944140Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:04.043558Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:04.141969Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:04.238983Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:04.606828Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:05.127350Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:00:05.316106Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:00:05.518477Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:05.921646Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:06.020359Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:06.320718Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:06.514824Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:06.717363Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:06.814392Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:07.016206Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:07.120228Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:07.220246Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:07.414436Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:07.523471Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:07.723431Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:08.264033Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:00:10.030027Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:10.557124Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:12.853206Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:00:15.282750Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:17.403459Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:19.719400Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:22.119358Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:24.536190Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:26.936387Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:00:29.542350Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:31.868798Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:34.286554Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:36.689657Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:39.202835Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:41.602715Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:44.119132Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:46.439227Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:48.934865Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:51.352565Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:53.755846Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:56.267819Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:00:58.684798Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:01:01.088812Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:02:13.483881Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:02:13.527878Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-04T06:02:13.528877Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:02:13.528877Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:02:14.161138Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-04T06:02:14.161138Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:02:15.598880Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.406}
+{"ts": "2026-07-04T06:02:15.599880Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:02:16.210828Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-04T06:02:17.211374Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:02:17.211880Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T06:02:17.843315Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-04T06:02:17.843315Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T06:02:18.844459Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T06:05:05.908010Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T06:05:06.103296Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:07.426597Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:09.727327Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:12.158274Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:14.281360Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:16.796942Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:19.409772Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:21.808968Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:24.227020Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:26.726775Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:05:29.256513Z", "event": "row_detected", "total_rows": 4, "claim_rows": [1]}
+{"ts": "2026-07-04T06:05:29.301023Z", "event": "claim_found", "row_id": 1, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 703]}
+{"ts": "2026-07-04T06:05:29.301023Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:05:29.302024Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:05:29.937099Z", "event": "claim_cell_clicked", "row_id": 1, "x": 1169, "y": 703}
+{"ts": "2026-07-04T06:05:29.937099Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:05:31.379678Z", "event": "claim_verified", "y_key": 704, "cell_text": "phan", "elapsed_s": 1.405}
+{"ts": "2026-07-04T06:05:31.379678Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:05:31.986839Z", "event": "select_clicked", "y_key": 704, "x": 1315, "y": 703}
+{"ts": "2026-07-04T06:05:32.987706Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:05:32.987706Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T06:05:33.620518Z", "event": "connect_clicked", "y_key": 704, "x": 769, "y": 102}
+{"ts": "2026-07-04T06:05:33.620518Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T06:05:34.621543Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T06:10:32.583612Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T06:10:32.717866Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:34.748942Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:37.248735Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:39.566451Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:42.067043Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:44.684290Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:47.085983Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:49.400045Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:51.802501Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:10:54.386495Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:10:56.715390Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:10:59.233883Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:11:01.649284Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:11:04.051947Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:11:06.764381Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:11:09.487356Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0, 1]}
+{"ts": "2026-07-04T06:11:09.532442Z", "event": "claim_found", "row_id": 0, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 673]}
+{"ts": "2026-07-04T06:11:09.532442Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:11:09.533445Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:11:10.175656Z", "event": "claim_cell_clicked", "row_id": 0, "x": 1169, "y": 673}
+{"ts": "2026-07-04T06:11:10.175656Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:11:11.711743Z", "event": "claim_verified", "y_key": 672, "cell_text": "phan", "elapsed_s": 1.507}
+{"ts": "2026-07-04T06:11:11.711743Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:11:12.325240Z", "event": "select_clicked", "y_key": 672, "x": 1315, "y": 675}
+{"ts": "2026-07-04T06:11:13.326074Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:11:13.326074Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T06:11:13.959967Z", "event": "connect_clicked", "y_key": 672, "x": 769, "y": 102}
+{"ts": "2026-07-04T06:11:13.960474Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T06:11:14.962288Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T06:15:34.237618Z", "event": "state_change", "from_state": "IDLE", "to_state": "SCANNING"}
+{"ts": "2026-07-04T06:15:38.327006Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:15:38.427531Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:40.560536Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:43.058649Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:45.477601Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:47.991537Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:50.388290Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:53.205428Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:55.425111Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:15:57.726576Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:00.239128Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:02.660017Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:05.159053Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:07.574637Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:10.073784Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:12.487997Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:14.988789Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:17.405192Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:19.823755Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:22.325539Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:24.741198Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:27.158470Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:29.658082Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:32.074816Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:34.586395Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:36.988281Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:39.504420Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:41.907187Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:44.224061Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:46.537465Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:48.836025Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:51.052939Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:53.354810Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:55.675320Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:16:57.989237Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:00.388301Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:02.903096Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:05.322203Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:07.819977Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:10.338921Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:12.838487Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:15.255979Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:17.752842Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:20.172149Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:22.689649Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:25.190132Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:27.806535Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:30.105667Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:17:32.542013Z", "event": "row_detected", "total_rows": 3, "claim_rows": [1]}
+{"ts": "2026-07-04T06:17:32.593015Z", "event": "claim_found", "row_id": 1, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 703]}
+{"ts": "2026-07-04T06:17:32.593517Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:17:32.593517Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:17:33.229906Z", "event": "claim_cell_clicked", "row_id": 1, "x": 1169, "y": 703}
+{"ts": "2026-07-04T06:17:33.230412Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:17:34.686228Z", "event": "claim_verified", "y_key": 704, "cell_text": "phan", "elapsed_s": 1.407}
+{"ts": "2026-07-04T06:17:34.687228Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:17:35.281094Z", "event": "select_clicked", "y_key": 704, "x": 1315, "y": 703}
+{"ts": "2026-07-04T06:17:36.282678Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:17:36.283190Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "STOPPED"}
+{"ts": "2026-07-04T06:19:36.531589Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T06:19:36.807648Z", "event": "row_detected", "total_rows": 5, "claim_rows": [0]}
+{"ts": "2026-07-04T06:19:37.717310Z", "event": "row_detected", "total_rows": 5, "claim_rows": [0]}
+{"ts": "2026-07-04T06:19:38.256990Z", "event": "row_detected", "total_rows": 5, "claim_rows": [0]}
+{"ts": "2026-07-04T06:19:40.025780Z", "event": "row_detected", "total_rows": 6, "claim_rows": [0, 1]}
+{"ts": "2026-07-04T06:19:40.119436Z", "event": "claim_found", "row_id": 1, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 719]}
+{"ts": "2026-07-04T06:19:40.121438Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:19:40.121438Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:19:40.758783Z", "event": "claim_cell_clicked", "row_id": 1, "x": 1169, "y": 719}
+{"ts": "2026-07-04T06:19:40.758783Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:19:42.112302Z", "event": "claim_verified", "y_key": 720, "cell_text": "phan", "elapsed_s": 1.305}
+{"ts": "2026-07-04T06:19:42.113290Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:19:42.709001Z", "event": "select_clicked", "y_key": 720, "x": 1315, "y": 719}
+{"ts": "2026-07-04T06:19:43.710068Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:19:43.710068Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T06:19:44.342637Z", "event": "connect_clicked", "y_key": 720, "x": 769, "y": 102}
+{"ts": "2026-07-04T06:19:44.343143Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T06:19:44.343143Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}
+{"ts": "2026-07-04T06:22:43.240897Z", "event": "state_change", "from_state": "STOPPED", "to_state": "SCANNING"}
+{"ts": "2026-07-04T06:22:43.552265Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:44.231664Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:44.375698Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:44.536204Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:45.086958Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:47.546006Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:48.507837Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:49.277978Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:49.412944Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:49.907479Z", "event": "row_detected", "total_rows": 3, "claim_rows": [0]}
+{"ts": "2026-07-04T06:22:52.423112Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:22:54.644315Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:22:57.162762Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:22:59.573648Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:02.075299Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:04.610508Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:06.941034Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:09.340595Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:11.039911Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:11.760946Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:14.256753Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:15.973902Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:16.673566Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:18.176274Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:19.177929Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:21.589868Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:23.190251Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:24.007672Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:26.508580Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:28.924683Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:31.423426Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:33.839591Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:36.255947Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:38.758465Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:41.178334Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:43.574916Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:46.092390Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:48.490582Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:50.807455Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:53.122703Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:55.423291Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:23:57.828939Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:24:00.031842Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:02.272955Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:04.572112Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:06.989478Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:09.389531Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:11.804357Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:14.220783Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:16.720919Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:19.139174Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:21.560536Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:24.055035Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:26.554098Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:28.954385Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:31.370519Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:33.670843Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:35.987326Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:38.287240Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:40.606386Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:42.904159Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:45.105142Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:47.380449Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:24:47.498627Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:47.523690Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:47.622243Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:50.021763Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:52.436702Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:54.337464Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:54.836514Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:24:57.708655Z", "event": "loop_tick", "state": "SCANNING", "rows": 9, "claims": 0}
+{"ts": "2026-07-04T06:24:58.306810Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-04T06:25:12.257439Z", "event": "loop_tick", "state": "SCANNING", "rows": 8, "claims": 0}
+{"ts": "2026-07-04T06:25:37.558628Z", "event": "loop_tick", "state": "SCANNING", "rows": 8, "claims": 0}
+{"ts": "2026-07-04T06:25:39.576374Z", "event": "loop_tick", "state": "SCANNING", "rows": 8, "claims": 0}
+{"ts": "2026-07-04T06:25:39.976565Z", "event": "loop_tick", "state": "SCANNING", "rows": 8, "claims": 0}
+{"ts": "2026-07-04T06:25:40.879091Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:25:41.472950Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:25:41.873381Z", "event": "loop_tick", "state": "SCANNING", "rows": 6, "claims": 0}
+{"ts": "2026-07-04T06:25:45.902610Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:46.021626Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:46.111645Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:46.212664Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:46.408406Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:47.811529Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:47.912420Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:48.010436Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:48.109452Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:49.707973Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:49.815002Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:49.910018Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:50.929118Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:51.321488Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:25:51.423519Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:51.523544Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:51.624561Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:51.727578Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:54.025074Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:54.126733Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:54.226808Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:54.321133Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:58.343660Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:58.657525Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:58.862185Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:58.961427Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:59.354967Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:59.458991Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:59.558840Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:25:59.659859Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:59.757879Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:25:59.859422Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:01.255943Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:01.458995Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:01.665091Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:01.759845Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:01.861810Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:02.060108Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:05.178980Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.278999Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.377013Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.478121Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.577842Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.676854Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:05.970498Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:10.428406Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:11.653714Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:11.835192Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.040739Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.239133Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.351157Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.462200Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.556989Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.583497Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.684531Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:21.978102Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.176825Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.300533Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.400506Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.501707Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.686844Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.789355Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:22.987876Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:23.102401Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:23.200447Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:23.301309Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:27.173411Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:27.407939Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:27.526725Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:27.712748Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:27.735750Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:28.119617Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:28.136610Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:28.436312Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:29.334409Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:29.531447Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:35.447673Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:35.663147Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:38.369173Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:38.550237Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:38.857075Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:39.063000Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:39.531718Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:39.706521Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:39.916047Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:40.093075Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:40.317827Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:41.914746Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:42.402924Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:42.908626Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:43.214218Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:43.311294Z", "event": "loop_tick", "state": "SCANNING", "rows": 3, "claims": 0}
+{"ts": "2026-07-04T06:26:43.411033Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:43.511167Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:43.608269Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:43.906260Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:44.106716Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:44.406029Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:44.704056Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:45.903723Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:46.006296Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:46.106563Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:46.208365Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:46.923307Z", "event": "loop_tick", "state": "SCANNING", "rows": 5, "claims": 0}
+{"ts": "2026-07-04T06:26:47.923473Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:48.021578Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:48.123701Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:48.224730Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:48.325748Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:48.921383Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:49.124007Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:49.929609Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:50.033825Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:50.128453Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:50.238329Z", "event": "loop_tick", "state": "SCANNING", "rows": 4, "claims": 0}
+{"ts": "2026-07-04T06:26:50.424415Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-04T06:26:50.525704Z", "event": "loop_tick", "state": "SCANNING", "rows": 7, "claims": 0}
+{"ts": "2026-07-04T06:26:50.655986Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:50.669019Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:50.766671Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:50.866709Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:50.967743Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.083782Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.184803Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.283834Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.383653Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.482965Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.583644Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.683707Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.784722Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:51.884366Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.072053Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.086081Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.186197Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.284479Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.383214Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.568915Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.585441Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.685065Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.783198Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:52.882593Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:53.001399Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:53.763769Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:53.862546Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:53.963752Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:54.061447Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:54.159160Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:54.260347Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:54.366049Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:54.481097Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:26:55.255396Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:56.655418Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:56.757196Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:57.054084Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:26:58.276238Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:27:00.980443Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:01.076092Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:01.288532Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:02.091923Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:27:07.348375Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:07.370884Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:08.245982Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:09.720277Z", "event": "loop_tick", "state": "SCANNING", "rows": 2, "claims": 0}
+{"ts": "2026-07-04T06:27:11.660286Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:12.588282Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:12.602283Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:12.699298Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:27:56.165195Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:28:01.698143Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:28:52.279050Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:28:57.595302Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:29:06.329511Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:29:11.661978Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:29:17.179765Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:29:17.774028Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:19.435997Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:21.907615Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:24.395302Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:26.856063Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:29.217940Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:31.674825Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:34.144017Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:36.606157Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:39.066996Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:41.546529Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:43.912530Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:46.379100Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:48.840163Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:51.293574Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:51.558527Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:53.722244Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:56.180987Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:56.525118Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:29:58.693891Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:01.071410Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:03.338228Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:05.605257Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:07.956938Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:10.227416Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:12.102021Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:12.572484Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:14.825114Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:17.174766Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:19.631846Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:19.791716Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:20.658688Z", "event": "row_detected", "total_rows": 2, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:22.103758Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:24.569700Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:25.618178Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:26.971029Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:29.418215Z", "event": "row_detected", "total_rows": 1, "claim_rows": [0]}
+{"ts": "2026-07-04T06:30:31.960601Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:34.292551Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:36.710827Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:39.229921Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:41.625974Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:44.042248Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:46.444524Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:48.958218Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:49.258744Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:51.375429Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:53.775182Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:54.275027Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:56.293329Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:30:58.692575Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:01.108009Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:03.608955Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:06.027204Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:08.443645Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:10.941073Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:13.357548Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:15.774126Z", "event": "loop_tick", "state": "SCANNING", "rows": 1, "claims": 0}
+{"ts": "2026-07-04T06:31:18.571154Z", "event": "row_detected", "total_rows": 2, "claim_rows": [1]}
+{"ts": "2026-07-04T06:31:18.618659Z", "event": "claim_found", "row_id": 1, "text": "CLAIM", "confidence": 0.999, "claim_cell": [1169, 719]}
+{"ts": "2026-07-04T06:31:18.619659Z", "event": "state_change", "from_state": "SCANNING", "to_state": "CLAIM_FOUND"}
+{"ts": "2026-07-04T06:31:18.620659Z", "event": "state_change", "from_state": "CLAIM_FOUND", "to_state": "CLICK_CLAIM"}
+{"ts": "2026-07-04T06:31:19.252802Z", "event": "claim_cell_clicked", "row_id": 1, "x": 1169, "y": 719}
+{"ts": "2026-07-04T06:31:19.253819Z", "event": "state_change", "from_state": "CLICK_CLAIM", "to_state": "WAIT_USERNAME"}
+{"ts": "2026-07-04T06:31:20.922798Z", "event": "claim_verified", "y_key": 720, "cell_text": "phan", "elapsed_s": 1.608}
+{"ts": "2026-07-04T06:31:20.922798Z", "event": "state_change", "from_state": "WAIT_USERNAME", "to_state": "CLAIM_SUCCESS"}
+{"ts": "2026-07-04T06:31:21.502373Z", "event": "select_clicked", "y_key": 720, "x": 1315, "y": 719}
+{"ts": "2026-07-04T06:31:22.503268Z", "event": "state_change", "from_state": "CLAIM_SUCCESS", "to_state": "CLICK_SELECT"}
+{"ts": "2026-07-04T06:31:22.503776Z", "event": "state_change", "from_state": "CLICK_SELECT", "to_state": "CLICK_CONNECT"}
+{"ts": "2026-07-04T06:31:23.135593Z", "event": "connect_clicked", "y_key": 720, "x": 769, "y": 102}
+{"ts": "2026-07-04T06:31:23.135593Z", "event": "state_change", "from_state": "CLICK_CONNECT", "to_state": "CONNECTED"}
+{"ts": "2026-07-04T06:31:24.136805Z", "event": "state_change", "from_state": "CONNECTED", "to_state": "STOPPED"}

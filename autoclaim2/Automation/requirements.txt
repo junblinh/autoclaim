@@ -1,0 +1,38 @@
+# ============================================================
+# Teleops Auto Claim — Python Dependencies
+# ============================================================
+# Yêu cầu: Python 3.10 – 3.12  (khuyến nghị 3.11.x)
+# Cài đặt: pip install -r requirements.txt
+#
+# Kiểm tra phiên bản Python:
+#   python --version
+#
+# Nếu chưa có pip:
+#   python -m ensurepip --upgrade
+# ============================================================
+
+# ── Screen capture (<10ms/frame) ────────────────────────────
+mss>=9.0.2
+
+# ── Computer vision & xử lý ảnh ────────────────────────────
+opencv-python>=4.10.0.84
+numpy>=1.26.4
+Pillow>=10.4.0
+
+# ── OCR (nhận dạng chữ trên màn hình) ───────────────────────
+easyocr>=1.7.2
+
+# ── Điều khiển chuột ─────────────────────────────────────────
+pyautogui>=0.9.54
+
+# ── Fuzzy matching (kiểm tra username trong CLAIM cell) ──────
+rapidfuzz>=3.14.5
+
+# ============================================================
+# TÙY CHỌN: Tăng tốc GPU cho EasyOCR (cần NVIDIA CUDA 12.x)
+# Bỏ comment 2 dòng dưới rồi chạy lại pip install:
+# ============================================================
+# torch==2.3.1+cu121
+# torchvision==0.18.1+cu121
+# (cài qua): pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Sau đó đặt "gpu": true trong config.json > "ocr"
